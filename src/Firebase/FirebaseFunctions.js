@@ -1,7 +1,7 @@
 import {
   initializeApp, createUserWithEmailAndPassword, sendEmailVerification, signInWithPopup,
   GoogleAuthProvider, signInWithEmailAndPassword, set, ref, getAuth, addDoc, collection,
-  getFirestore, signOut,
+  getFirestore, signOut, getDocs, doc, getDoc, onSnapshot,
 } from './FirebaseImport.js';
 
 // FUNCIÓN REGISTRO EN FIREBASE
@@ -22,6 +22,7 @@ export const registerFirebase = (auth, email, password) => {
     });
 };
 
+// FUNCIÓN LOGIN
 export const login = async (auth, email, password) => {
   signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
@@ -69,7 +70,21 @@ export const logOut = (auth) => {
   // An error happened.
   });
 };
+
+export const getAllPosts = (db) => { console.log(getAllPosts(db))
+  getDocs(collection(db, 'users'));
+};
+
+export const getPost = (id, db) => getDoc(doc(db, 'users', id));
+
+// export const saveTask = (title, description) =>
+//   addDoc(collection(db, "tasks"), { title, description });
+
+export const onGetAllPosts = (callback, db) => onSnapshot(collection(db, 'users'), callback);
+
+// export const deleteTask = (id) => deleteDoc(doc(db, "tasks", id));
+
 export {
   initializeApp, createUserWithEmailAndPassword, sendEmailVerification,
-  signInWithPopup, GoogleAuthProvider, getAuth, signInWithEmailAndPassword, getFirestore,
+  signInWithPopup, GoogleAuthProvider, getAuth, signInWithEmailAndPassword, getFirestore, getDocs,
 };

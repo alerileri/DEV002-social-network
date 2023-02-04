@@ -7,7 +7,7 @@ import { inicioDeSesion } from './views/InicioDeSesion.js';
 import { route, template, router } from './lib/Router.js';
 import {
   registerFirebase, registerGoogle, getAuth, GoogleAuthProvider, initializeApp, login,
-  databaseFirestore, getFirestore, logOut,
+  databaseFirestore, getFirestore, logOut, onGetAllPosts,
 } from './Firebase/FirebaseFunctions.js';
 
 initializeApp(firebaseConfig);
@@ -61,17 +61,47 @@ template('register', () => { // Se crea una función anónima
 
 template('timeline', () => {
   timeline();
-  const publicar = document.getElementById('publicar');
-  const userLogout = document.getElementById('userSignOut');
-  publicar.addEventListener('click', (e) => {
-    e.preventDefault();
-    const post = document.getElementById('postear').value;
-    databaseFirestore(post, db);
-  });
-  userLogout.addEventListener('click', (e) => {
-    e.preventDefault();
-    logOut(auth);
-    return inicioDeSesion();
+  const inputPost = document.getElementById('postear');
+  const postsContainer = document.getElementById('sectionTimeline');
+ // const editStatus = false;
+ // const id = '';
+
+  window.addEventListener('DOMContentLoaded', () => {
+    onGetAllPosts((querySnapshot) => {
+      postsContainer.innerHTML = '';
+
+      querySnapshot.forEach((doc) => {
+        const postData = doc.data();
+
+        //     <div class="card card-body mt-2 border-primary">
+        postsContainer.innerHTML += `
+    
+          <div>
+       <p>${postData.post}</p>
+      // <div>
+    //     <button class="btn btn-primary btn-delete" data-id="${doc.id}">
+    //       🗑 Delete
+    //     </button>
+    //     <button class="btn btn-secondary btn-edit" data-id="${doc.id}">
+    //       🖉 Edit
+    //     </button>
+     // </div>
+    </div>`;
+      });
+    });
+
+    const publicar = document.getElementById('publicar').value;
+    const userLogout = document.getElementById('userSignOut');
+    publicar.addEventListener('click', (e) => {
+      e.preventDefault();
+      const inputPost = document.getElementById('postear');
+      databaseFirestore(post, db);
+    });
+    userLogout.addEventListener('click', (e) => {
+      e.preventDefault();
+      logOut(auth);
+      return inicioDeSesion();
+    });
   });
 });
 

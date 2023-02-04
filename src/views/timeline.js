@@ -46,6 +46,7 @@ export const timeline = () => {
   section2.appendChild(inputPost);
   section2.appendChild(botonPublicar);
 
+  section3.id = 'sectionTimeline';
   section3.className = 'section-timeline';
   nombrePost.className = 'autora-post';
   divPosted.className = 'div-posted';
