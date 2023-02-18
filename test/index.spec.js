@@ -2,8 +2,10 @@
  * @jest-environment jsdom
  */
 
-import { registerFirebase, login } from '../src/Firebase/FirebaseFunctions.js';
-import { sendEmailVerification, signInWithEmailAndPassword } from '../src/Firebase/FirebaseImport.js';
+import { registerFirebase, login, registerGoogle } from '../src/Firebase/FirebaseFunctions.js';
+import {
+  provider, sendEmailVerification, signInWithEmailAndPassword, signInWithPopup,
+} from '../src/Firebase/FirebaseImport.js';
 // import { auth } from '../src/main.js';
 
 // jest.mock('../src/main.js', () => ({
@@ -18,12 +20,14 @@ jest.mock('../src/Firebase/FirebaseImport.js', () => ({
   orderBy: () => null,
   // auth:{currentUser:{}},
   auth: jest.fn(() => ({ auth: 'TEST ' })),
+  provider: jest.fn(() => ({ provider: 'TEST ' })),
   signInWithEmailAndPassword: jest.fn((auth, email, password) => {
     if (!email || !password) {
       throw new Error('ERROR');
     }
     Promise.resolve({ user: 'admin' });
   }),
+  signInWithPopup: jest.fn(),
 }));
 
 describe('Tests para Register', () => {
@@ -44,24 +48,10 @@ describe('Test para inicio sesion de usuario', () => {
     expect(signInWithEmailAndPassword).toHaveBeenCalled();
   });
 });
-//     expect(typeof registerFirebase). toBe('function');
-//   }
-// }
-// jest.mock('../src/Firebase/FirebaseImport.js', () => ({
-//   createUserWithEmailAndPassword: jest.fn((auth, email, password) =>
-//     // console.log('aaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-//     ({
-//       email: 'correo@powerl.com',
-//       password: 'password123',
-//     })),
-// }));
 
-// describe('registerFirebase', () => {
-//   const email = 'correo@gmail.com';
-//   const password = 'password123';
-
-//   it('debe llamar a createUserWithEmailAndPassword cuando se ejecute', async () => {
-//     await registerFirebase(email, password);
-//     // expect(createUserWithEmailAndPassword).toHaveBeenCalled(email, password);
-//   });
-// });
+describe('test para acceder con google', () => {
+  it('la funcion llama a signInWithPopup', async () => {
+    await registerGoogle(provider);
+    expect(signInWithPopup).toHaveBeenCalled();
+  });
+});

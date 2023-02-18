@@ -223,6 +223,6 @@ export const timeline = () => {
   userLogout.addEventListener('click', (e) => {
     e.preventDefault();
     logOut(auth);
-    return inicioDeSesion();
+    return window.location = 'http://localhost:3000/#';
   });
 };

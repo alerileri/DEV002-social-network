@@ -1,6 +1,6 @@
 import { registerGoogle, login } from '../Firebase/FirebaseFunctions.js';
 import { auth, provider } from '../Firebase/FirebaseImport.js';
-import { template } from '../lib/Router.js';
+import { template, route } from '../lib/Router.js';
 
 const main = document.getElementById('main');
 const footer = document.getElementById('footer');
@@ -115,14 +115,15 @@ template('inicioDeSesion', () => { // Se crea una función anónima
         window.location = 'http://localhost:3000/#/timeline';
       // Función para manejar el nuevo cambio de ruta
       })
-      .catch((error)=> {
+      .catch((error) => {
         console.log(error);
         alert('Usuaria no encontrada');
       });
   });
   const google = document.getElementById('google');
-  google.addEventListener('click', (e) => {
+  google.addEventListener('click', async (e) => {
     e.preventDefault();
-    registerGoogle(auth, provider);
+     registerGoogle();
+     window.location = 'http://localhost:3000/#/timeline';
   });
 });
