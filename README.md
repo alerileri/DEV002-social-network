@@ -14,7 +14,7 @@ Hace años que dejaron de ser solo un medio de entretenimiento para adolescentes
 
 ## 2. Definición del producto
 
-[<PowerL>](AQUÍ VA EL ENLACE DE NETLIFY, SIN COMILLAS) es una red social creada
+[PowerL](https://hilarious-zuccutto-4547f1.netlify.app/#/) es una red social creada
  por y para laboratorians; es decir, una red para estudiantes y egresadas de los bootcamps de Laboratoria.
 
 Es una alternativa informal de comunicación a los canales que la organización nos ofrece, cuyo objetivo expresarnos de manera espontánea y divertida de
