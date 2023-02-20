@@ -60,9 +60,7 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
     ### HU1:  Registro de nueva usuaria
     
     **Yo como:** egresada o estudiante de Laboratoria
-    
     **Quiero:** poder registrarme en <*PowerL*> con mi correo electrónico
-    
     **Para:** iniciar sesión, publicar y ver el contenido de otras laboratorians
     
     ### Criterios de aceptación
@@ -113,11 +111,8 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
     ### HU3: Acceso con cuenta de Google
     
     **Yo como:** egresada o estudiante de Laboratoria con cuenta de Google
-    
     **Quiero:** registrarme con mi cuenta de Google e iniciar sesión en <*PowerL*>
-    
     **Para:** omitir el formulario de registro
-    
     ### Criterios de aceptación
     
     - `Pantalla de inicio con nombre o logo de la RS
@@ -133,11 +128,8 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
     ### HU4:  Publicar un post
     
     **Yo como:** usuaria de *<PowerL>*
-    
     **Quiero:** poder publicar un post
-    
     **Para:** compartir información con otras laboratorians
-    
     ### Criterios de aceptación
     
     - `Input para agregar texto
@@ -163,11 +155,8 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
     ### HU5: Vista general / Timeline
     
     **Yo como:** usuaria de *<PowerL>*
-    
     **Quiero:** poder ingresar a la vista general o timeline
-    
     **Para:** ver los post
-    
     ### Criterios de aceptación
     
     - `Pantalla de timeline con nombre o logo de la RS
@@ -180,13 +169,10 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
     - Se carga la información con los post anteriores del mas reciente al mas antiguo`
     
     ### HU6: Dar like a un post
-    
     **Yo como:** usuaria de *<PowerL>*
-    
     **Quiero:** poder darle Like a los post publicados en el timeline.
-    
     **Para:** interactuar con las compañeras
-    
+   
     ### Criterios de aceptación
     
     - `Que cada post tenga un boton de like
@@ -202,9 +188,7 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
     ### HU7: Editar posts
     
     **Yo como:** usuaria de *<PowerL>*
-    
     **Quiero:** poder editar mis post después de publicarlos
-    
     **Para:** corregir errores o cambiar/agregar información
     
     ### Criterios de aceptación
@@ -226,9 +210,7 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
     ### HU8: Eliminar posts
     
     **Yo como:** usuaria de *<PowerL>*
-    
     **Quiero:** poder eliminar cualquiera de mis post publicados
-    
     **Para:** que ya no sean visibles ni se pueda interactuar con ellos
     
     ### Criterios de aceptación
@@ -247,9 +229,7 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
     ### HU9: Mostrar fecha y hora de los posts
     
     **Yo como:** usuaria de *<PowerL>*
-    
     **Quiero:** poder ver fecha y hora de creación de post
-    
     **Para:** saber cuándo un post fue publicado
     
     ### Criterios de aceptación
@@ -267,13 +247,13 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
 
 Para iniciar la conceptualización del proyecto realizamos un diseño de baja fidelidad (en papel blanco y tinta negra) que mostraba, a grandes rasgos, cuál esperábamos que fuera el flujo de nuestra web. 
 
-![Prot-BC-1]([https://user-images.githubusercontent.com/111525050/219999450-d078fafa-4fe0-481d-a2ee-ad52f8719881.jpeg](https://user-images.githubusercontent.com/111525050/219999450-d078fafa-4fe0-481d-a2ee-ad52f8719881.jpeg))
+![Prot-BC-1]([https://user-images.githubusercontent.com/111525050/219999450-d078fafa-4fe0-481d-a2ee-ad52f8719881.jpeg](https://user-images.githubusercontent.com/111525050/219999450-d078fafa-4fe0-481d-a2ee-ad52f8719881.jpeg)
 
-![Prot-BC-2]([https://user-images.githubusercontent.com/111525050/219999452-3b2c5c5f-63e2-4bc7-a116-95b26bf98836.jpeg](https://user-images.githubusercontent.com/111525050/219999452-3b2c5c5f-63e2-4bc7-a116-95b26bf98836.jpeg))
+![Prot-BC-2]([https://user-images.githubusercontent.com/111525050/219999452-3b2c5c5f-63e2-4bc7-a116-95b26bf98836.jpeg](https://user-images.githubusercontent.com/111525050/219999452-3b2c5c5f-63e2-4bc7-a116-95b26bf98836.jpeg)
 
-![Prot-BC-3]([https://user-images.githubusercontent.com/111525050/219999451-2b31e7b9-8876-48e9-adbc-1bc20054df00.jpeg](https://user-images.githubusercontent.com/111525050/219999451-2b31e7b9-8876-48e9-adbc-1bc20054df00.jpeg))
+![Prot-BC-3]([https://user-images.githubusercontent.com/111525050/219999451-2b31e7b9-8876-48e9-adbc-1bc20054df00.jpeg](https://user-images.githubusercontent.com/111525050/219999451-2b31e7b9-8876-48e9-adbc-1bc20054df00.jpeg)
 
-![Prot-BC-4]([https://user-images.githubusercontent.com/111525050/219999453-2c30683a-132c-4f58-a329-8624c3ee9c48.jpeg](https://user-images.githubusercontent.com/111525050/219999453-2c30683a-132c-4f58-a329-8624c3ee9c48.jpeg))
+![Prot-BC-4]([https://user-images.githubusercontent.com/111525050/219999453-2c30683a-132c-4f58-a329-8624c3ee9c48.jpeg](https://user-images.githubusercontent.com/111525050/219999453-2c30683a-132c-4f58-a329-8624c3ee9c48.jpeg)
 
 Pedimos feedback e iteramos el siguiente prototipo de baja fidelidad, pero en formto digital:
 ![Prototipo-BC-Dig-1](https://github.com/beresdev/social-network/blob/main/img-rdm/prototypes/protBC1Figma.PNG)
@@ -287,7 +267,7 @@ La imagen anterior muestra las tres vistas principales que planeamos en nuestro 
 
 Resultado después de comentarios de usuarias
 
-![Prot-AC](https://user-images.githubusercontent.com/111525050/219999044-077e4d3b-ff99-45e1-93b2-298b530102fc.png))
+![Prot-AC](https://user-images.githubusercontent.com/111525050/219999044-077e4d3b-ff99-45e1-93b2-298b530102fc.png)
 
 
 
