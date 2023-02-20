@@ -1,4 +1,4 @@
-# <PowerL> - Creando una Red Social
+# PowerL - Creando una Red Social
 
 ## Índice
 
