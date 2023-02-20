@@ -3,13 +3,10 @@
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Entrega](#7-entrega)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [2. Definición del producto](#2-definición-del-producto)
+* [3. Historias de usuario](#3-historias-de-usuario)
+* [4. Diseño de la Interfaz de Usuario (UI](#4-diseño-de-la-interfaz-de-usuario-ui)
+* [5. Testeos de usabilidad](#5-testeos-de-usabilidad)
 
 ## 1. Preámbulo
 Hoy en día las redes sociales se han convertido en un medio de comunicación, pero también en un medio de expresión y una manera de conectar con personas alrededor del mundo, un espacio dónde compartir ideas, información, anécdotas e incluso emociones. 
