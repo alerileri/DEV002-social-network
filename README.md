@@ -247,13 +247,13 @@ Una vez que entiendas las necesidades de tus usuarixs, escribe las Historias de 
 
 Para iniciar la conceptualización del proyecto realizamos un diseño de baja fidelidad (en papel blanco y tinta negra) que mostraba, a grandes rasgos, cuál esperábamos que fuera el flujo de nuestra web. 
 
-![Prot-BC-1]([https://user-images.githubusercontent.com/111525050/219999450-d078fafa-4fe0-481d-a2ee-ad52f8719881.jpeg](https://user-images.githubusercontent.com/111525050/219999450-d078fafa-4fe0-481d-a2ee-ad52f8719881.jpeg)
+![Prot-BC-1](https://user-images.githubusercontent.com/111525050/219999450-d078fafa-4fe0-481d-a2ee-ad52f8719881.jpeg](https://user-images.githubusercontent.com/111525050/219999450-d078fafa-4fe0-481d-a2ee-ad52f8719881.jpeg)
 
-![Prot-BC-2]([https://user-images.githubusercontent.com/111525050/219999452-3b2c5c5f-63e2-4bc7-a116-95b26bf98836.jpeg](https://user-images.githubusercontent.com/111525050/219999452-3b2c5c5f-63e2-4bc7-a116-95b26bf98836.jpeg)
+![Prot-BC-2](https://user-images.githubusercontent.com/111525050/219999452-3b2c5c5f-63e2-4bc7-a116-95b26bf98836.jpeg](https://user-images.githubusercontent.com/111525050/219999452-3b2c5c5f-63e2-4bc7-a116-95b26bf98836.jpeg)
 
-![Prot-BC-3]([https://user-images.githubusercontent.com/111525050/219999451-2b31e7b9-8876-48e9-adbc-1bc20054df00.jpeg](https://user-images.githubusercontent.com/111525050/219999451-2b31e7b9-8876-48e9-adbc-1bc20054df00.jpeg)
+![Prot-BC-3](https://user-images.githubusercontent.com/111525050/219999451-2b31e7b9-8876-48e9-adbc-1bc20054df00.jpeg](https://user-images.githubusercontent.com/111525050/219999451-2b31e7b9-8876-48e9-adbc-1bc20054df00.jpeg)
 
-![Prot-BC-4]([https://user-images.githubusercontent.com/111525050/219999453-2c30683a-132c-4f58-a329-8624c3ee9c48.jpeg](https://user-images.githubusercontent.com/111525050/219999453-2c30683a-132c-4f58-a329-8624c3ee9c48.jpeg)
+![Prot-BC-4](https://user-images.githubusercontent.com/111525050/219999453-2c30683a-132c-4f58-a329-8624c3ee9c48.jpeg](https://user-images.githubusercontent.com/111525050/219999453-2c30683a-132c-4f58-a329-8624c3ee9c48.jpeg)
 
 Pedimos feedback e iteramos el siguiente prototipo de baja fidelidad, pero en formto digital:
 ![Prototipo-BC-Dig-1](https://github.com/beresdev/social-network/blob/main/img-rdm/prototypes/protBC1Figma.PNG)
@@ -261,7 +261,7 @@ Pedimos feedback e iteramos el siguiente prototipo de baja fidelidad, pero en fo
 
 Una vez más pedimos feedback a compañeras y mentores e iteramos en el prototipo de alta calidad, el cual se muestra a continuación.
 
-![Image]([https://user-images.githubusercontent.com/111525050/220001042-0a9a46ba-967b-4810-8862-72543c38e49b.png](https://user-images.githubusercontent.com/111525050/220001042-0a9a46ba-967b-4810-8862-72543c38e49b.png))
+![Image](https://user-images.githubusercontent.com/111525050/220001042-0a9a46ba-967b-4810-8862-72543c38e49b.png](https://user-images.githubusercontent.com/111525050/220001042-0a9a46ba-967b-4810-8862-72543c38e49b.png))
 
 La imagen anterior muestra las tres vistas principales que planeamos en nuestro prototipo de alta fidelidad. La herramienta que utilizamos para ello fue figma, ya que permitía el trabajo colaborativo remoto, el diseño de flujo y las vistas previas de nuestro prototipo en diferentes dispositivos.
 
